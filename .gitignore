@@ -20,4 +20,4 @@ Dash_files/
 
 # all files in data except endsong.json
 data/*
-!data/endsong.json
+!data/endsong*.json
