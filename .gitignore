@@ -1,0 +1,23 @@
+# credentials
+credentials.py
+
+# csv files
+*.csv
+
+# Logs
+*.log
+*.log.*
+*.txt
+
+# pycache and dash files
+__pycache__
+.cache
+*.pyc
+Dash_files/
+
+# html
+*.html
+
+# all files in data except endsong.json
+data/*
+!data/endsong.json

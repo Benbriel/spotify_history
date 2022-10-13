@@ -1,0 +1,46 @@
+alias:
+  columns:
+    master_metadata_track_name: trackName
+    master_metadata_album_artist_name: artistName
+    master_metadata_album_album_name: albumName
+    spotify_track_uri: uri
+
+  trackName:
+    'Close to the Edge (i. The Solid Time of Change, ii. Total Mass Retain, iii. I Get up I Get Down, iv. Seasons of Man) - 2003 Remaster': 'Close to the Edge'
+    '2112: Overture / The Temples Of Syrinx / Discovery / Presentation / Oracle / Soliloquy / Grand Finale - Medley': '2112'
+    'Tarkus (i. Eruption / ii. Stones of Years / iii. Iconoclast / iv. Mass / v. Manticore / vi. Battlefield / vii. Aquatarkus) [2012 Remastered Version]': 'Tarkus'
+    'A Change of Seasons - The Crimson Sunrise / Innocence / Carpe Diem / The Darkest of Winters / Another World / The Inevitable Summer / The Crimson Sunset': 'A Change of Seasons'
+    'Blind Curve: Vocal Under a Bloodlight / Passing Strangers / Mylo / Perimeter Walk / Threshold - 2017 Remaster': 'Blind Curve - 2017 Remaster'
+    'Bitter Suite: Brief Encounter / Lost Weekend / Blue Angel / Misplaced Rendezvous / Windswept Thumb - 2017 Remaster': 'Bitter Suite - 2017 Remaster'
+    'Magnum Opus: Father Padilla Meets the Perfect Gnat / Howling at the Moon / Man Overboard / Industry on Parade / Release the Beavers / Gnat Attack': 'Magnum Opus'
+    'Thick as a Brick (Pt. I) - 1997 Remaster': 'Thick as a Brick (Pt. I)'
+    'Thick as a Brick (Pt. II) - 1997 Remaster': 'Thick as a Brick (Pt. II)'
+    "Supper's Ready - Digital Remastered 2008": "Supper's Ready"
+    'A Passion Play (Pt. I) - Pt. I; 2003 Remaster': 'A Passion Play (Pt. I)'
+    'A Passion Play (Pt. II) - Pt. II; 2003 Remaster': 'A Passion Play (Pt. II)'
+    'The Gates of Delirium - 2003 Remaster': 'The Gates of Delirium'
+    'Roundabout - 2003 Remaster': 'Roundabout'
+
+min_time_ms: 30000
+
+columns:
+  - trackName
+  - albumName
+  - artistName
+  - m_played
+  - play_count
+
+song_props:
+  - duration_ms
+  - time_signature
+  - key
+  - tempo
+  - danceability
+  - energy
+  - loudness
+  - mode
+  - speechiness
+  - acousticness
+  - instrumentalness
+  - liveness
+  - valence
